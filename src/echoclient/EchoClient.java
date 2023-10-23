@@ -15,7 +15,7 @@ public class EchoClient {
         
         while (true) {
             sock_out.println(std_in.readLine());
-            System.out.println(sock_in.readLine());
+            std_out.println(sock_in.readLine());
         }
     }
 }
